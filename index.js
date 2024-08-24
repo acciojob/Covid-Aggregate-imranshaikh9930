@@ -25,7 +25,7 @@ app.get("/totalRecovered", async (req, res) => {
   } catch (error) {
     res.json({ message: error });
   }
-});
+})
 
 app.get("/totalDeath", async (req, res) => {
   try {
